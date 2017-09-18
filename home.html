@@ -8,6 +8,16 @@
   <meta name="description" content="The Description Content">
   <meta name="author" content="op3nus3r">
 
+  <!-- FAVICONS -->
+	<link rel="apple-touch-icon" sizes="180x180" href="medias/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="medias/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="medias/favicon/favicon-16x16.png">
+	<link rel="manifest" href="medias/favicon/manifest.json">
+	<link rel="mask-icon" href="medias/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="medias/favicon/favicon.ico">
+	<meta name="msapplication-config" content="medias/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
   <!--NORMALIZE CSS -> https://github.com/necolas/normalize.css/ -->
   <link rel="stylesheet" href="css/normalize.css">
   <!--THEME CSS -->
@@ -21,41 +31,94 @@
 
 <body>
   <!--HEADER /////////////////////////////////////////////////////////////// -->
-  <header>
-    <h1 class="website_title">Simpluxml</h1>
+  <header class="principal_header">
+    <!-- menu -->
+    <section class="menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+      <!-- close
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
+      -->
+    <section>
+    <!-- Website Title -->
+    <h1 class="website_title h2like">
+      <a class="neutral_link" href="#home">Simpluxml</a>
+    </h1>
+    <!-- logotype
+    <section class="logotype">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20.78"><title>Sans titre - 1</title><polygon points="12 0 0 20.79 24 20.79 12 0"/></svg>
+    </section> -->
+
+    <!-- Search -->
+    <section class="search">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg>
+    </section>
   </header>
   <!--NAV ////////////////////////////////////////////////////////////////// -->
   <nav>nav</nav>
+
+  <!--SEARCH ////////////////////////////////////////////////////////////////// -->
+  <section>search</section>
+
   <!--ARTICLE ////////////////////////////////////////////////////////////// -->
   <article>
-      <h1>Title of article</h1>
-      <h3>Subtitle</h3>
-      <p>
-          Paragraph lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Maecenas sollicitudin tristique egestas. Etiam euismod pulvinar quam ultricies mattis. Donec maximus nisl nec neque consectetur, vel mollis mi consectetur. Cras sem leo, viverra et ante at, suscipit sollicitudin justo. Proin nisi odio, scelerisque vitae dui a, dignissim facilisis augue. Nam eu tincidunt libero. In quis eleifend risus.
-      </p>
-      <p>
-          Sed eu semper augue. Donec quis metus sit amet eros ultricies elementum. Nulla vel hendrerit sem, a lacinia ipsum. Vestibulum congue ligula sed cursus ultricies. Fusce rhoncus et ligula ac tristique. Nam euismod velit non tellus consectetur maximus. Pellentesque non tellus nec justo viverra faucibus vitae sit amet sapien. Suspendisse dignissim ipsum a erat hendrerit cursus. Maecenas enim turpis, hendrerit ut mi id, vestibulum bibendum diam. Mauris mollis, nisi non maximus congue, neque ligula facilisis tortor, in egestas tellus lectus vitae ipsum. In euismod enim in ipsum efficitur congue. Morbi tempus nunc lobortis lacus vulputate, blandit mollis enim scelerisque. Donec venenatis molestie faucibus. Phasellus efficitur tellus sed mi blandit, id iaculis risus congue. Vivamus tempus ipsum at sollicitudin vulputate.
-      </p>
-      <p>
-          Praesent vel urna sed massa dictum dictum eu non nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas mollis sapien quis lacus dictum, non auctor sem tincidunt. Mauris id aliquet nisl, dignissim aliquet elit. Integer gravida mi fermentum, consequat erat quis, lacinia risus. Nam accumsan vestibulum quam, ac interdum enim. Etiam a mauris rutrum, blandit leo vitae, gravida turpis. Praesent dapibus ex ac mi ornare semper. Donec mollis velit mauris, eget tincidunt massa aliquam id. Fusce hendrerit, erat non accumsan fringilla, diam augue molestie nisl, vestibulum cursus tellus est sit amet turpis.
-      </p>
+      <section class="text_article">
+          <h1>Title of article</h1>
+          <h2>Subtitle</h2>
+
+          <img class="test" src="medias/img/image1.jpg" alt="img"/>
+
+          <p>
+              Paragraph lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Maecenas sollicitudin tristique egestas. Etiam euismod pulvinar quam ultricies mattis. Donec maximus nisl nec neque consectetur, vel mollis mi consectetur. Cras sem leo, viverra et ante at, suscipit sollicitudin justo. Proin nisi odio, scelerisque vitae dui a, dignissim facilisis augue. Nam eu tincidunt libero. In quis eleifend risus.
+          </p>
+     </section>
   </article>
+
+
+
+  <article>
+      <section class="text_article">
+          <h1>Title of article</h1>
+          <h2>Subtitle</h2>
+
+          <img class="test" src="medias/img/image2.jpg" alt="img"/>
+
+          <p>
+              Paragraph lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Maecenas sollicitudin tristique egestas. Etiam euismod pulvinar quam ultricies mattis. Donec maximus nisl nec neque consectetur, vel mollis mi consectetur. Cras sem leo, viverra et ante at, suscipit sollicitudin justo. Proin nisi odio, scelerisque vitae dui a, dignissim facilisis augue. Nam eu tincidunt libero. In quis eleifend risus.
+          </p>
+          <p>
+              Sed eu semper augue. Donec quis metus sit amet eros ultricies elementum. Nulla vel hendrerit sem, a lacinia ipsum. Vestibulum congue ligula sed cursus ultricies. Fusce rhoncus et ligula ac tristique. Nam euismod velit non tellus consectetur maximus. Pellentesque non tellus nec justo viverra faucibus vitae sit amet sapien. Suspendisse dignissim ipsum a erat hendrerit cursus. Maecenas enim turpis, hendrerit ut mi id, vestibulum bibendum diam. Mauris mollis, nisi non maximus congue, neque ligula facilisis tortor, in egestas tellus lectus vitae ipsum. In euismod enim in ipsum efficitur congue. Morbi tempus nunc lobortis lacus vulputate, blandit mollis enim scelerisque. Donec venenatis molestie faucibus. Phasellus efficitur tellus sed mi blandit, id iaculis risus congue. Vivamus tempus ipsum at sollicitudin vulputate.
+          </p>
+          <p>
+              Praesent vel urna sed massa dictum dictum eu non nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas mollis sapien quis lacus dictum, non auctor sem tincidunt. Mauris id aliquet nisl, dignissim aliquet elit. Integer gravida mi fermentum, consequat erat quis, lacinia risus. Nam accumsan vestibulum quam, ac interdum enim. Etiam a mauris rutrum, blandit leo vitae, gravida turpis. Praesent dapibus ex ac mi ornare semper. Donec mollis velit mauris, eget tincidunt massa aliquam id. Fusce hendrerit, erat non accumsan fringilla, diam augue molestie nisl, vestibulum cursus tellus est sit amet turpis.
+          </p>
+     </section>
+  </article>
+
   <!--ASIDE //////////////////////////////////////////////////////////////// -->
   <aside>
-    <h3>Aside</h3>
-    <p>Sed eu semper augue. Donec quis metus sit amet eros ultricies elementum.</p>
+    <section class="aside_box">
+      <h3>Aside</h3>
+      <p>Sed eu semper augue. Donec quis metus sit amet eros ultricies elementum.</p>
+    </section>
 
-    <h3>Aside</h3>
-    <p>Donec quis metus sit amet eros ultricies elementum.</p>
+    <section class="aside_box">
+      <h3>Aside</h3>
+      <p>Donec quis metus sit amet eros ultricies elementum.</p>
+    </section>
 
-    <h3>Aside</h3>
-    <p>Metus sit amet eros ultricies elementum.</p>
+    <section class="aside_box">
+      <h3>Aside</h3>
+      <p>Metus sit amet eros ultricies elementum.</p>
+    </section>
+
   </aside>
+
+
   <!--FOOTER /////////////////////////////////////////////////////////////// -->
   <footer class="principal_footer">
     <nav class="nav_footer">
         <ul>
-          <h3>Simpluxml</h3>
+          <h3><a class="neutral_link">Simpluxml</a></h3>
         </ul>
 
         <ul>
@@ -87,23 +150,14 @@
         </ul>
     </nav>
 
-    <p>
+    <p class="h4like">
       Designed by <a href="https://github.com/op3nus3r">op3nus3r</a> licensed under a <a class="" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr" rel="license">Creative Commons Attribution 3.0 License</a>
     </p>
-
-  	<a class="" href="http://www.w3.org/html/logo/#downloads" >
-  		<img class="" src="medias/charte/html5.png" alt="html5 badge">
-  	</a>
-
-  	<a class="" href="http://creativecommons.org/licenses/" >
-  		<img class="" src="medias/charte/cc.png" alt="Creative Commons">
-  	</a>
-
 
   </footer>
 
   <!--JAVASCRIPT /////////////////////////////////////////////////////////// -->
-  <script src="js/scripts.js"></script>
+  <!-- <script src="js/scripts.js"></script> -->
 </body>
 
 </html>

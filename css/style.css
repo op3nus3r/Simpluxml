@@ -1,17 +1,36 @@
+/*
+# ------------------ CSS ------------------
+#
+#
+# ------------------ CSS ------------------
+*/
+
 html, body{
   font-family: helvetica, freesans, sans-serif;
   background-color: #eee;
   color: #333;
 }
 
-header, nav, article, aside, footer{
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
+
+
+
 /* LINKS ///////////////////////////////////////////////////////////////////// */
 a{
   color: #009bde;
+  cursor: pointer;
 }
+
+
+.neutral_link{
+  color: #333;
+  text-decoration: underline;
+}
+
+.neutral_link:hover{
+  color: #000;
+}
+
 
 /* TYPE ///////////////////////////////////////////////////////////////////// */
 /* fibonacci 1 	2 	3 	5 	8 	13 	21 	34 	55 	89 	144 */
@@ -28,39 +47,113 @@ body {
 
     font-size: 1.8em;  /* taille de base pour tous les éléments equivalent 18px */
     line-height: 1.5em;
-    margin: 0 5%; padding: 0; border: 0;
+    margin: 0 5em; padding: 0; border: 0;
 }
 
+h1,h2,h3,h4,h5,h6{
+  line-height: 1.5em;
+}
 
-h1{
+h1, .h1like{
   font-size: 55px;
 }
-h2{
+h2, .h2like{
   font-size: 34px;
 }
-h3{
+h3, .h3like{
   font-size: 21px;
 }
-h4{
+h4, .h4like{
   font-size: 13px;
 }
-h5{
+h5, .h5like{
   font-size: 8px;
 }
-h6{
+h6, .h6like{
   font-size: 5px;
 }
 
+p{
+
+}
+
+
+/* MENU ////////////////////////////////////////////////////////////////////// */
+.menu{
+  height: 150px;
+  overflow: hidden;
+  border-bottom: solid 1px #222;
+}
+
+/* NAV /////////////////////////////////////////////////////////////////////// */
+
+
+/* SEARCH //////////////////////////////////////////////////////////////////// */
 
 
 
+/* ARTICLE /////////////////////////////////////////////////////////////////// */
+
+article{
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  display: block;
+  overflow: hidden;
+}
+
+article p:first-child{
+  text-indent: 3em;
+}
+
+/* Banner */
+.test{
+  position: absolute;
+  left: 0;
+  max-width: 45%;
+  padding: 0 3em 3em 0;
+}
+
+/*
+.test{
+  position: absolute;
+  left: 0;
+  width: 50%;
+} */
+
+/*
+article:nth-child(even) {
+  background: rgba(44, 185, 33, 0.28);
+}
+article:nth-child(odd) {
+  background: rgba(249, 199, 184, 0.5);
+}
+*/
+
+/* Texte */
+.text_article{
+  padding-left: 50%;
+}
+
+/* ASIDE //////////////////////////////////////////////////////////////////// */
+aside{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding: 2em 0;
+}
+.aside_box{
+  width: 20%;
+  display: block;
+  float: left;
+  border-top: solid 1px #222;
+}
 
 /* FOOTER /////////////////////////////////////////////////////////////////// */
 .principal_footer{
 }
 
 .nav_footer{
-  border-top: solid 1px black;
+  border-top: solid 1px #222;
   margin-bottom: 3em;
   overflow: hidden;
 }

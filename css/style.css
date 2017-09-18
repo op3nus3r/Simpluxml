@@ -1,0 +1,80 @@
+html, body{
+  font-family: helvetica, freesans, sans-serif;
+  background-color: #eee;
+  color: #333;
+}
+
+header, nav, article, aside, footer{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* LINKS ///////////////////////////////////////////////////////////////////// */
+a{
+  color: #009bde;
+}
+
+/* TYPE ///////////////////////////////////////////////////////////////////// */
+/* fibonacci 1 	2 	3 	5 	8 	13 	21 	34 	55 	89 	144 */
+
+html {
+	font-size: 62.5%; /* équivalence "10px" sur l'élément racine */
+  font-size: calc(1em * .625);  /*IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+}
+
+
+body {
+	color: #222;
+    letter-spacing: 0.5px;
+
+    font-size: 1.8em;  /* taille de base pour tous les éléments equivalent 18px */
+    line-height: 1.5em;
+    margin: 0 5%; padding: 0; border: 0;
+}
+
+
+h1{
+  font-size: 55px;
+}
+h2{
+  font-size: 34px;
+}
+h3{
+  font-size: 21px;
+}
+h4{
+  font-size: 13px;
+}
+h5{
+  font-size: 8px;
+}
+h6{
+  font-size: 5px;
+}
+
+
+
+
+
+/* FOOTER /////////////////////////////////////////////////////////////////// */
+.principal_footer{
+}
+
+.nav_footer{
+  border-top: solid 1px black;
+  margin-bottom: 3em;
+  overflow: hidden;
+}
+
+.nav_footer ul{
+  list-style: none;
+  margin: 0; padding: 0; border: 0;
+  float:left;
+  width: 20%;
+}
+
+.nav_footer li{
+  display: block;
+}
+
+
+/* RESPONSIVE /////////////////////////////////////////////////////////////// */
